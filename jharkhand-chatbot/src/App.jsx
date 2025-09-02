@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
     // API configuration
-    const API_KEY = "AIzaSyCXmJr0noEYODH3fw2Vl_cGSvVHA8PIZNw"; // Do not change this, Canvas will provide it at runtime.
+    const API_KEY = "API_KEY"; // Do not change this, Canvas will provide it at runtime.
     const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${API_KEY}`;
 
     // Translations for UI elements
